@@ -1,0 +1,26 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;0,600;1,400&display=swap');
+      .title { font-family: 'Instrument Serif', serif; font-size: 72px; font-weight: 600; fill: #2f2a28; }
+      .subtitle { font-family: 'Instrument Serif', serif; font-size: 28px; fill: #6f6762; font-style: italic; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#faf7f5"/>
+  
+  <!-- Content -->
+  <g transform="translate(600, 250)">
+    <!-- Title -->
+    <text x="0" y="0" text-anchor="middle" class="title">
+      <tspan font-style="italic">Yours,Truly!</tspan>
+      <tspan x="0" dy="80">Club</tspan>
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="180" text-anchor="middle" class="subtitle">
+      The platform for the heavely union between you and yours.
+    </text>
+  </g>
+</svg>
